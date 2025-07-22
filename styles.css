@@ -1,6 +1,6 @@
 body{
   background-color: #000000;
-  background-image: url('/assets/background.png');
+  background-image: url('../assets/background.png');
   background-size: cover;
 }
 
@@ -26,7 +26,7 @@ body{
 }
 
 .tema-1{
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 .tema-3{
@@ -50,10 +50,18 @@ body{
   border-radius: 100%;
 }
 
-.projeto{
-  height: 100px;
-  width: 100px;
-  background-color: wheat;
+.div-descricao-competencia{
+  width: 80px;
+}
+
+.descricao-competencia{
+  color: white;
+  font-size: 15px;
+  text-shadow: 
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000;
 }
 
 .div-compentencias{
@@ -64,20 +72,11 @@ body{
 }
 
 .div-competencia{
-  padding-top: 4px;
-  padding-left: 10px;
-  padding-right: 10px;
-  background-color: rgb(255, 0, 0);
-  margin: 10px;
-  color: rgb(255, 255, 255);
-  border-radius: 15px;
-  text-align: center;
-  align-content: center;
-  display: inline-block;
+  margin: 20px;
 }
 
-.h-competencia{
-  font-size: 18px;
+.icone-competencia{
+  width: 80px;
 }
 
 .icone-rede-social{
