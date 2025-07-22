@@ -1,0 +1,100 @@
+body{
+  background-color: #000000;
+  background-image: url('../assets/background.png');
+  background-size: cover;
+}
+
+.descricao{
+  width: 600px;
+  font-size: 17px;
+  text-shadow: 
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000;
+  padding-left: 50px;
+}
+
+.titulo{
+  font-size: 50px;
+  text-shadow: 
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000;
+  margin-top: 30px;
+}
+
+.tema-1{
+  color: rgb(255, 255, 255);
+}
+
+.tema-3{
+  color: red;
+}
+
+.titulo-1{
+  margin-left: 0px
+}
+.titulo-2{
+  margin-left: 50px
+}
+.titulo-3{
+  margin-left: 100px
+}
+
+.foto{
+  margin-top: 30px;
+  height: 200px;
+  margin-left: 50px;
+  border-radius: 100%;
+}
+
+.div-descricao-competencia{
+  width: 80px;
+}
+
+.descricao-competencia{
+  color: white;
+  font-size: 15px;
+  text-shadow: 
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000;
+}
+
+.div-compentencias{
+  width: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.div-competencia{
+  margin: 20px;
+}
+
+.icone-competencia{
+  width: 80px;
+}
+
+.icone-rede-social{
+  width: 50px;
+  height: 50px;
+  margin: 15px;
+}
+
+.link-projeto{
+  color: aliceblue;
+}
+
+.icone-projeto{
+  width: 100px;
+  margin-left: 15px;
+}
+
+.curriculo{
+  justify-content: center;
+  align-items: center;
+}
