@@ -1,5 +1,6 @@
 body{
   background-image: url('/assets/background.png');
+  background-color: #000;
   background-size: cover;
 }
 
@@ -53,7 +54,7 @@ body{
   width: 80px;
 }
 
-.descricao-competencia{
+.descricao-competencia, .descricao-projeto{
   color: white;
   font-size: 15px;
   text-shadow: 
@@ -65,6 +66,13 @@ body{
 
 .div-compentencias{
   width: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.div-projeto{
+  width: 250px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -90,7 +98,6 @@ body{
 
 .icone-projeto{
   width: 100px;
-  margin-left: 15px;
 }
 
 .curriculo{
